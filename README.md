@@ -7,4 +7,4 @@
 
 3. 当第三方应用以Web App形式入驻，跳转时则在新的WebView中打开应用注册的跳转链接（URL），链接规则详见第三方系统入驻单点接入规则。例如：`http://third_party_url.com?username=13800138000&password=c4ca4238a0b923820dcc509a6f75849b`；
 
-4. 当第三方应用以独立移动应用形式入驻，在跳转时则会发起应用URI跳转请求，系统将自动路由到第三方移动应用。跳转URI规则如下：`xrj0123456789://login/changepassword?username=13800138000&password=c4ca4238a0b923820dcc509a6f75849b`![](http://xtemp.oss-cn-hangzhou.aliyuncs.com/temp/host_path.png)
+4. 当第三方应用以独立移动应用形式入驻，在跳转时则会发起应用URI跳转请求，系统将自动路由到第三方移动应用。跳转URI规则如下：`xrj0123456789://login/changepassword?username=13800138000&password=c4ca4238a0b923820dcc509a6f75849b`![](http://xtemp.oss-cn-hangzhou.aliyuncs.com/temp/uri.png)
