@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         intent.setData(uri);
 
-        List<ResolveInfo> inlist = getPackageManager().queryIntentActivities(intent, 0);
-        if (inlist.size() > 0) {
+        if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
 
             finish();
